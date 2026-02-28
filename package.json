@@ -1,0 +1,1 @@
+{"name": "kanban-board", "version": "0.1.0", "scripts": {"start": "node index.js", "test": "jest --passWithNoTests"}, "dependencies": {"express": "^4.17.1", "cors": "^2.8.5", "mongodb": "^4.3.1", "ws": "^8.10.0", "tensorflowjs": "^3.13.0"}, "devDependencies": {"jest": "^29.0.0", "supertest": "^6.3.4"}}
