@@ -1,7 +1,10 @@
-const express = require('express');
-const app = express();
-const apiRouter = require('./routes/api');
-app.use(express.json());
-app.use('/api', apiRouter);
-if (require.main === module) { app.listen(3000); }
-module.exports = app;
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+// Render App component
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
